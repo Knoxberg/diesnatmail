@@ -200,7 +200,7 @@ try:
             print('Kesalahan:', str(e))
 
     else:
-        print(f'\n{Fore.YELLOW}Pengiriman email dibatalkan')
+        print(f'{Fore.YELLOW}Pengiriman email dibatalkan\n')
 
 except KeyboardInterrupt:
     # Kalau ada ctrl+c, menyimpan DataFrame ke file Excel sebelum keluar
